@@ -13,7 +13,7 @@
   
 }
 .bg{
-  min-height: 100vh;
+  min-height: 100svh;
     width: 100%;
     background-size: cover;
    background-position: center;
@@ -61,9 +61,13 @@ p{
     
 }
 
-video{
+video,iframe{
     overflow: hidden;
     border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    aspect-ratio: 16/9;
    
 }
 
