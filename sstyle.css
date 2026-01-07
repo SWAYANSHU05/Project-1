@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#up1{
+    background-image: url("https://i.pinimg.com/1200x/c2/68/6c/c2686cf87ca210179690bfffd6304064.jpg"); 
+  
+  
+}
+.bg{
+  min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+   background-position: center;
+   padding-bottom: 50vh;
+   text-align: center;
+    animation: fadeUp 1.2s ease-out;
+   
+  
+   
+
+}
+
+h1{
+    color: #f38787;
+  
+}
+
+h5{
+    color: #f6f1f1;
+}
+.yt{
+    border-radius: 20px;
+}
+
+h2{
+  color: red;
+}
+#up2{
+    
+  background-image: url("https://i.pinimg.com/736x/8c/74/60/8c7460a71ceac1390d498f2ac31b26cc.jpg");
+
+
+}
+p{
+    color: #fcfcfb;
+    min-height: min-content;
+    font-family: jost;
+    font-size: 1.1rem;
+
+   
+}
+
+#up3{
+    background-image: url("https://i.pinimg.com/1200x/4e/de/ff/4edeff1e0217ddedddc5da5b04db964a.jpg");
+    
+}
+
+video{
+    overflow: hidden;
+    border-radius: 20px;
+   
+}
+
+video:hover {
+  transform: scale(1.01);
+}
+
+.yt:hover{
+    transform: scale(1.01);
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
