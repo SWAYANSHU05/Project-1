@@ -52,6 +52,10 @@ p{
     min-height: min-content;
     font-family: jost;
     font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 0 1rem ;
+    line-height: 1.7;
+    text-align: left;
 
    
 }
@@ -88,6 +92,26 @@ video:hover {
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .bg {
+    padding: 4rem 1rem 8rem;
+  }
+}
+
 
 
 
